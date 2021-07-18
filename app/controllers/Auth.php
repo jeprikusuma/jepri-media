@@ -197,8 +197,8 @@ class Auth extends Controller{
 		$mail->SMTPSecure = "tls";
 		$mail->Port       = 587;
 		$mail->Host       = "smtp.gmail.com";
-		$mail->Username   = "nineblog11@gmail.com";
-		$mail->Password   = "jeprik01";
+		$mail->Username   = "";
+		$mail->Password   = "";
 
 		$mail->IsHTML(true);
 		$mail->AddAddress($user["email"], $user["name"]);
